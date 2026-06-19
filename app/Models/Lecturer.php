@@ -9,7 +9,8 @@ class Lecturer extends Model
     //
     protected $fillable = [
         "full_name",
-        "nidn"
+        "nidn",
+        "user_id"
     ];
 
     public function hasUser(): bool
